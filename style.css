@@ -273,3 +273,4 @@ footer.band { padding-block: 48px 44px; background: #131517; }
   .mbar a { display: grid; place-items: center; height: 56px; font-size: 14px; font-weight: 600; color: var(--fg); text-decoration: none; border-left: 1px solid var(--line); }
   .mbar a:first-child { border-left: 0; background: var(--paving); color: var(--bg); }
 }
+.head .motto { display: block; font-family: var(--display); font-weight: 600; font-size: clamp(22px, 2.4vw, 28px); line-height: 1.2; color: var(--fg); }
