@@ -262,6 +262,13 @@ footer.band { padding-block: 48px 44px; background: #131517; }
 @media (max-width: 460px) { .cars.two { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 1000px) { .cars { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .cars { grid-template-columns: minmax(0, 1fr); } }
+.cars.swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: 6px; }
+.cars.swipe .car { flex: 0 0 calc((100% - 60px) / 4); scroll-snap-align: start; }
+@media (max-width: 1000px) { .cars.swipe .car { flex-basis: calc((100% - 20px) / 2); } }
+.swipe-nav { display: flex; justify-content: flex-end; gap: 8px; margin: -6px 0 14px; }
+.swipe-nav button { width: 44px; height: 44px; border: 1px solid var(--line); background: var(--bg-2); color: var(--fg); font-size: 22px; line-height: 1; cursor: pointer; }
+.swipe-nav button:hover { background: var(--bg-3); }
+@media (max-width: 560px) { .swipe-nav { display: none; } }
 
 /* ---- mobile ---- */
 .mbar { display: none; }
