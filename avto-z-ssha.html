@@ -18,9 +18,9 @@
 <meta name="theme-color" content="#17191c">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Onest:wght@400;500;600&display=swap">
+<link rel="preload" href="fonts/cg-600-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/onest-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="img/motorhaus-avtosalon-chernivtsi-800.webp 800w, img/motorhaus-avtosalon-chernivtsi-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Авто під замовлення з будь-якої країни — пригон авто з США, Європи, Канади під ключ | MOTORHAUS", "url": "https://motorhaus.group/avto-z-ssha", "isPartOf": {"@id": "https://motorhaus.group/#dealer"}, "about": {"@id": "https://motorhaus.group/#dealer"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "MOTORHAUS", "item": "https://motorhaus.group/"}, {"@type": "ListItem", "position": 2, "name": "Авто під замовлення", "item": "https://motorhaus.group/avto-z-ssha"}]}</script>
@@ -37,7 +37,7 @@
 </header>
 <main>
 <section class="hero sub">
-  <img src="motorhaus-avtosalon-chernivtsi.jpg" alt="Автосалон MOTORHAUS у с. Магала, Чернівці" width="1800" height="1200" style="object-position:62% 50%" fetchpriority="high">
+  <img src="img/motorhaus-avtosalon-chernivtsi-800.webp" srcset="img/motorhaus-avtosalon-chernivtsi-800.webp 800w, img/motorhaus-avtosalon-chernivtsi-1600.webp 1600w" sizes="100vw" alt="Автосалон MOTORHAUS у с. Магала, Чернівці" width="1800" height="1200" style="object-position:62% 50%" fetchpriority="high">
   <div class="band hero-in"><div class="wrap">
     <nav class="crumbs" aria-label="Навігація"><a href="./">MOTORHAUS</a><span aria-hidden="true">/</span>Авто під замовлення</nav>
     <div class="kicker" style="margin-top:18px">Пригон авто під ключ</div>
@@ -91,7 +91,7 @@
     <div class="head"><div><div class="kicker">Контакти</div><h2>Приїжджайте на тест-драйв</h2></div>
       <div><p>Салон у с. Магала, поруч із Чернівцями. Подзвоніть перед приїздом — підготуємо авто до огляду, щоб Вам не довелося чекати.</p></div></div>
     <div class="contact">
-      <figure><a href="https://maps.app.goo.gl/Zx4AtndngGwcx7MD8" target="_blank" rel="noopener"><img src="motorhaus-fasad-mahala.jpg" alt="Фасад автосалону MOTORHAUS, вул. Чернівецька 7Г, с. Магала" loading="lazy" width="1400" height="933"></a>
+      <figure><a href="https://maps.app.goo.gl/Zx4AtndngGwcx7MD8" target="_blank" rel="noopener"><img src="img/motorhaus-fasad-mahala-700.webp" srcset="img/motorhaus-fasad-mahala-700.webp 700w, img/motorhaus-fasad-mahala-1400.webp 1400w" sizes="(max-width: 900px) 100vw, 600px" alt="Фасад автосалону MOTORHAUS, вул. Чернівецька 7Г, с. Магала" loading="lazy" width="1400" height="933"></a>
         <figcaption>вул. Чернівецька, 7Г, с. Магала, Чернівецька обл., 60313 · <a href="https://maps.app.goo.gl/Zx4AtndngGwcx7MD8" target="_blank" rel="noopener">відкрити на карті</a></figcaption></figure>
       <div class="cl">
         <div><div class="lbl">Телефони</div><div class="big"><a href="tel:+380738437373">073 843-73-73</a></div><div class="big"><a href="tel:+380739437373">073 943-73-73</a></div></div>
@@ -115,13 +115,13 @@
     <div class="fgrid">
       <div><img src="motorhaus-logo.png" alt="MOTORHAUS — Not Luxury, Necessity" width="900" height="259" loading="lazy">
         <p>Автосалон преміальних авто з пробігом і офіційний представник Škoda, Peugeot, Opel, Citroën і DS у регіоні.</p></div>
-      <div><h4>Авто</h4><ul>
+      <div><h3 class="fh">Авто</h3><ul>
         <li><a href="avto-z-probihom">Авто з пробігом</a></li><li><a href="skoda">Нові Škoda</a></li>
         <li><a href="peugeot-opel-citroen-ds">Peugeot, Opel, Citroën, DS</a></li><li><a href="avto-z-ssha">Авто під замовлення</a></li></ul></div>
-      <div><h4>Послуги</h4><ul>
+      <div><h3 class="fh">Послуги</h3><ul>
         <li><a href="kredyt-rozstrochka">Кредит і розстрочка</a></li><li><a href="trade-in">Trade-in і обмін</a></li>
         <li><a href="trade-in#prodazh">Продаж Вашого авто</a></li><li><a href="sto">СТО і перевірка авто</a></li></ul></div>
-      <div><h4>Контакти</h4>
+      <div><h3 class="fh">Контакти</h3>
         <p><a href="tel:+380738437373">073 843-73-73</a><br><a href="tel:+380739437373">073 943-73-73</a></p>
         <p>вул. Чернівецька, 7Г, с. Магала</p><p>Пн–Сб 8:30–19:00, Нд 10:00–18:00</p>
         <p><a href="https://www.instagram.com/motorhaus.ua/" target="_blank" rel="noopener">Instagram</a> · <a href="https://t.me/motorhaus_sklad" target="_blank" rel="noopener">Telegram</a> · <a href="https://auto.ria.com/uk/dealers/motorhaus/4070/" target="_blank" rel="noopener">AUTO.RIA</a></p></div>
