@@ -289,3 +289,10 @@ footer.band { padding-block: 48px 44px; background: #131517; }
   .mbar a:first-child { border-left: 0; background: var(--paving); color: var(--bg); }
 }
 .head .motto { display: block; font-family: var(--display); font-weight: 600; font-size: clamp(22px, 2.4vw, 28px); line-height: 1.2; color: var(--fg); }
+.btiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.btile { display: grid; gap: 6px; padding: 22px 20px; background: var(--bg-2); border: 1px solid var(--line); color: var(--fg); text-decoration: none; transition: background .2s, border-color .2s; }
+.btile:hover { background: var(--bg-3); border-color: var(--paving); }
+.btile b { font-family: var(--display); font-weight: 600; font-size: 26px; line-height: 1.1; }
+.btile span { font-size: 13px; color: var(--muted); }
+@media (max-width: 900px) { .btiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .btiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .btile { padding: 16px 14px; } .btile b { font-size: 21px; } }
