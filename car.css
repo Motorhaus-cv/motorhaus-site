@@ -33,3 +33,15 @@
 .opt ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 14px; line-height: 1.55; }
 @media (max-width: 1000px) { .carp-info { position: static; margin-top: 20px; } .carp-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "gal" "info" "specs"; } .opts { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .opts { grid-template-columns: 1fr; } .g-nav { display: none; } .carp-price { font-size: 34px; } }
+/* кредит */
+.crd { border: 1px solid var(--line); padding: 22px; background: var(--bg-2); }
+.crd-f { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+.crd-f label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--muted); }
+.crd-f select { font: inherit; font-size: 16px; color: var(--fg); padding: 9px 12px; border: 1px solid var(--line); background: var(--bg); min-width: 140px; }
+.crd-r { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.crd-r div { display: flex; flex-direction: column; gap: 4px; }
+.crd-r span { font-size: 13px; color: var(--muted); }
+.crd-r b { font-size: 18px; }
+.crd-r div:first-child b { font-family: var(--display); font-size: 26px; }
+.crd-n { font-size: 13px; color: var(--muted); margin: 18px 0 0; line-height: 1.55; }
+@media (max-width: 1000px) { .crd-r { grid-template-columns: 1fr 1fr; } .crd-r div:first-child { grid-column: 1 / -1; } }
