@@ -49,6 +49,44 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
     <div class="cta"><a class="btn solid" href="https://t.me/Motorhaus_ua_bot" target="_blank" rel="noopener">Оцінити авто в Telegram</a><a class="btn" href="#contacts">Приїхати на оцінку</a></div>
   </div></div>
 </section>
+<section class="band sec" id="ocinka">
+  <div class="wrap">
+    <div class="head"><div><div class="kicker">Оцінка онлайн</div><h2>Дізнайтеся, скільки коштує Ваше авто</h2></div><div><p>Заповніть кілька полів — менеджер зателефонує з орієнтовною оцінкою в день звернення.</p></div></div>
+    <style>
+.ti{border:1px solid var(--line);background:var(--bg-2);padding:24px;display:grid;gap:14px;max-width:760px}
+.ti-g{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ti label{display:grid;gap:6px;font-size:14px;color:var(--muted)}
+.ti input,.ti select{font:inherit;font-size:16px;color:var(--fg);background:var(--bg);border:1px solid var(--line);padding:11px 12px;width:100%;box-sizing:border-box;border-radius:2px}
+.ti .wide{grid-column:1/-1}
+.ti .btn{width:100%}
+.ti-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.ti-m{font-size:15px;min-height:1em}
+.ti-n{font-size:13px;color:var(--dim)}
+@media(max-width:640px){.ti{padding:16px}.ti-g{grid-template-columns:1fr}}
+</style>
+<form class="ti" id="ti" novalidate>
+  <div class="ti-g">
+    <label class="wide">Ваше авто: марка і модель<input name="model" required autocomplete="off" placeholder="Напр., BMW X5"></label>
+    <label>Рік випуску<input name="year" inputmode="numeric" maxlength="4" placeholder="2019"></label>
+    <label>Пробіг, тис. км<input name="km" inputmode="numeric" maxlength="4" placeholder="85"></label>
+    <label class="wide">Що Вас цікавить<select name="type"><option>Обмін на авто з майданчика</option><option>Продаж через салон</option><option>Швидкий викуп</option></select></label>
+    <label class="wide">Яке авто хочете взамін (необовʼязково)<input name="want" autocomplete="off" placeholder="Напр., Porsche Cayenne або бюджет"></label>
+    <label>Імʼя<input name="name" autocomplete="name"></label>
+    <label>Телефон<input name="phone" type="tel" autocomplete="tel" required placeholder="0__ ___ __ __"></label>
+  </div>
+  <input name="website" type="text" tabindex="-1" autocomplete="off" class="ti-hp" aria-hidden="true">
+  <button class="btn solid" type="submit">Отримати оцінку</button>
+  <div class="ti-m" id="tim" role="status"></div>
+  <div class="ti-n">Менеджер передзвонить і назве орієнтовну оцінку. Точну ціну фіксуємо після огляду в салоні.</div>
+</form>
+<script>(function(){var f=document.getElementById('ti');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();var m=document.getElementById('tim'),ph=f.phone.value.replace(/[^\d+]/g,'');
+if(!f.model.value.trim()){m.textContent='Вкажіть марку і модель авто';f.model.focus();return}
+if(ph.replace(/\D/g,'').length<9){m.textContent='Вкажіть номер телефону';f.phone.focus();return}
+var b=f.querySelector('button');b.disabled=true;var car='Авто клієнта: '+f.model.value.trim()+(f.year.value?', '+f.year.value.trim()+' р.':'')+(f.km.value?', '+f.km.value.trim()+' тис. км':'');
+var q=new URLSearchParams({name:f.name.value,phone:ph,website:f.website.value,car:car,type:'Trade-in: '+f.type.value,comment:f.want.value?'Хоче взамін: '+f.want.value:'',page:location.href,src:(document.referrer||'')+(location.search||'')});
+fetch('https://script.google.com/macros/s/AKfycbzvntv1jpmOc2JUx1nmeQhOP80Yx4oGsMSAUFcmTXaCFe7UAdeVeGyeA7ubkUGufYr_/exec',{method:'POST',mode:'no-cors',body:q}).then(function(){m.textContent='Дякуємо! Менеджер зателефонує вам найближчим часом.';f.reset();b.disabled=false;try{gtag('event','conversion',{send_to:'AW-18555174291/pJ5ZCJzMxrIdEJP75Y9F'});gtag('event','generate_lead',{link_url:'tradein_form'})}catch(x){}}).catch(function(){m.textContent='Не вдалося надіслати. Зателефонуйте нам: 073 843-73-73';b.disabled=false})})})();</script>
+  </div>
+</section>
 <section class="band sec" id="ways">
   <div class="wrap">
     <div class="head"><div><div class="kicker">Два варіанти</div><h2>Обміняти або продати</h2></div><div></div></div>
