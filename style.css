@@ -67,6 +67,8 @@ header.band { position: sticky; top: 0; z-index: 19; background: rgba(23,25,28,.
 .hero h1 { font-family: var(--display); font-weight: 600; font-size: clamp(44px, 7vw, 92px); line-height: .98; margin: 18px 0 22px; max-width: 13ch; text-wrap: balance; }
 .hero.sub h1 { font-size: clamp(40px, 5.6vw, 72px); max-width: 16ch; }
 .hero h1 em { font-style: italic; font-weight: 500; color: var(--paving); }
+.hero .slogan { font-family: var(--display); font-style: italic; font-weight: 500; font-size: clamp(26px, 3.4vw, 44px); line-height: 1.1; color: var(--paving); margin: -8px 0 22px; }
+.hero .slogan em { font-style: inherit; }
 .hero p { max-width: 48ch; font-size: clamp(17px, 2vw, 20px); line-height: 1.5; margin: 0 0 32px; color: #dfe2e5; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 24px; border: 1px solid rgba(236,238,240,.4); border-radius: 2px; text-decoration: none; font-weight: 500; font-size: 15px; color: var(--fg); background: transparent; transition: background .2s, border-color .2s; cursor: pointer; }
