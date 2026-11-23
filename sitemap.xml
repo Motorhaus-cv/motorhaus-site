@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://motorhaus.group/polityka-konfidentsiynosti</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority></url>
-<url><loc>https://motorhaus.group/</loc><lastmod>2026-11-18</lastmod><priority>1.0</priority></url>
+<url><loc>https://motorhaus.group/</loc><lastmod>2026-11-23</lastmod><priority>1.0</priority></url>
   <url><loc>https://motorhaus.group/marky</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
   <url><loc>https://motorhaus.group/avto-z-probihom</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://motorhaus.group/skoda</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-opel-citroen-ds</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-opel-citroen-ds</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
   <url><loc>https://motorhaus.group/kredyt-rozstrochka</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://motorhaus.group/trade-in</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://motorhaus.group/avto-z-ssha</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
@@ -41,7 +41,7 @@
   <url><loc>https://motorhaus.group/rolls-royce</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/ferrari</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/lamborghini</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/opel</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/citroen</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/volkswagen-touareg</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
@@ -66,7 +66,7 @@
   <url><loc>https://motorhaus.group/opel-movano</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/opel-grandland</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/citroen-c5-aircross</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-2008</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-2008</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/citroen-c4</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/citroen-c3</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/citroen-berlingo</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
@@ -138,10 +138,10 @@
   <url><loc>https://motorhaus.group/skoda-fabia</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/skoda-kamiq</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/skoda-scala</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-408</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-5008</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-partner</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://motorhaus.group/peugeot-expert</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-408</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-5008</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-partner</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-expert</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/opel-astra</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/opel-vivaro</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://motorhaus.group/opel-corsa</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority></url>
@@ -188,4 +188,6 @@
   <url><loc>https://motorhaus.group/toyota-corolla-2026-19408</loc><lastmod>2026-11-04</lastmod><priority>0.6</priority></url>
   <url><loc>https://motorhaus.group/audi-a8-2012-13279</loc><lastmod>2026-11-04</lastmod><priority>0.6</priority></url>
   <url><loc>https://motorhaus.group/jaguar-f-pace-2016-98080</loc><lastmod>2026-11-04</lastmod><priority>0.6</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-2008-2025-81403</loc><lastmod>2026-11-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://motorhaus.group/peugeot-408-2026-78582</loc><lastmod>2026-11-23</lastmod><priority>0.6</priority></url>
 </urlset>
