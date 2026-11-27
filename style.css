@@ -308,3 +308,11 @@ footer.band { padding-block: 48px 44px; background: #131517; }
 
 .price .was, .carp-price .was { color: var(--muted); font-weight: 400; text-decoration: line-through; margin-right: .35em; font-size: .8em; }
 .carp-price .was { font-size: .55em; }
+/* sold / out of stock */
+.car.sold figure { position: relative; }
+.car.sold figure img { filter: grayscale(1) brightness(.7); }
+.car.sold figure::after { content: "Продано"; position: absolute; left: 12px; top: 12px; padding: 5px 10px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; background: var(--bg); color: var(--fg); border: 1px solid var(--muted); }
+.car.sold .price { color: var(--muted); font-weight: 400; }
+.carp-note { margin: 14px 0 0; color: var(--muted); line-height: 1.5; }
+.carp-note a, .stock-empty a { color: var(--fg); }
+.stock-empty { color: var(--muted); line-height: 1.6; max-width: 640px; }
